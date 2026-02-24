@@ -6,4 +6,4 @@ https://esev.ipv.pt/estudar/licenciaturas/artes-plasticas-e-multimedia/
 # 
 Class support files for the module CCP<br>
 IPV / ESEV / APM BSc<br>
-https://esev.ipv.pt/estudar/licenciaturas/artes-plasticas-e-multimedia/
+https://esev.ipv.pt/en/study/bachelors-courses/art-and-multimedia/
