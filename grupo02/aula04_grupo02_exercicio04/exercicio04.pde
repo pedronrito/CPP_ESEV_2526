@@ -1,0 +1,11 @@
+size(200,200);
+int valor = 100;
+println(valor);
+valor = valor + 1;
+println(valor);
+valor = valor + 1;
+println(valor);
+valor++; // valor = valor + 1;
+println(valor);
+valor--; // valor = valor - 1;
+println(valor);
