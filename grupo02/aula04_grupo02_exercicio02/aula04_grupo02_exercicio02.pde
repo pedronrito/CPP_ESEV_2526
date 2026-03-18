@@ -1,0 +1,11 @@
+size(400,400);
+int a=125;
+int b=100;
+int r=0; 
+int g =255;
+int b1 = 0;
+fill(r,g,b1);
+ellipse(a,a,a,a);
+ellipse(a+b,a,a,a);
+ellipse(a,a+b,a,a);
+ellipse(a+b,a+b,a,a);
