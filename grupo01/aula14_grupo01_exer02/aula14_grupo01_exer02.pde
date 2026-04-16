@@ -1,0 +1,27 @@
+// The Nature of Code, exercicio2
+int[] randomCounts;
+int total = 20;
+
+void setup() {
+  size(400, 400);
+  randomCounts = new int[total];
+  for (int i = 0; i < total; i++) {
+    randomCounts[i] = 0;
+  }
+}
+
+void draw() {
+  background(0);
+  int index = floor(random(total));
+  randomCounts[index]++;
+
+  // Draw a rectangle to graph results
+  stroke(0);
+  strokeWeight(2);
+  fill(random(255),random(255),random(255));
+  int w = width / randomCounts.length;
+
+  for (int x = 0; x < randomCounts.length; x++) {
+    rect(x * w, height - randomCounts[x], w - 1, randomCounts[x]);
+  }
+}
